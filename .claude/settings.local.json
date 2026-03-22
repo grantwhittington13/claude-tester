@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(command -v node)",
+      "Bash(echo \"PATH: $PATH\")",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/melaynaprudhomme1/.nvm/versions/node/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(open http://localhost:3000)",
+      "Bash(open -a Safari http://localhost:3000)",
+      "Bash(claude mcp:*)",
+      "Bash(npx playwright:*)",
+      "Bash(/Users/melaynaprudhomme1/.nvm/versions/node/v24.14.0/bin/npx @playwright/mcp@latest --help)",
+      "Bash(/Users/melaynaprudhomme1/.nvm/versions/node/v24.14.0/bin/node /Users/melaynaprudhomme1/.nvm/versions/node/v24.14.0/bin/npx @playwright/mcp@latest --help)",
+      "Bash(osascript:*)",
+      "Bash(screencapture -m /tmp/uigen_front.png)",
+      "Bash(screencapture -x /tmp/uigen2.png)",
+      "Bash(screencapture -R \"0,25,1440,833\" /tmp/uigen_safari.png)",
+      "Bash(git init:*)",
+      "Bash(git remote:*)"
+    ]
+  }
+}
