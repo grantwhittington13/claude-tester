@@ -20,7 +20,9 @@
       "Bash(screencapture -x /tmp/uigen2.png)",
       "Bash(screencapture -R \"0,25,1440,833\" /tmp/uigen_safari.png)",
       "Bash(git init:*)",
-      "Bash(git remote:*)"
+      "Bash(git remote:*)",
+      "Bash(git pull:*)",
+      "Bash(gh pr:*)"
     ]
   }
 }
